@@ -1,0 +1,29 @@
+body {
+    background-color: #eef1f5;
+    font-family: 'Poppins', sans-serif;
+}
+.table-container {
+    margin-top: 40px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+.table thead {
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+}
+.table tbody tr td {
+    text-align: center;
+    vertical-align: middle;
+}
+.total-row {
+    font-weight: bold;
+    text-align: center;
+    background-color: #dbe2ef;
+}
+.table tbody tr:hover {
+    background-color: #f0f4f8;
+    transition: 0.3s;
+}

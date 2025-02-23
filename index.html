@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Form Layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+<body>
+    <div class="container mt-5 p-3">
+        <form>
+            <div class="d-flex justify-content-between">
+
+                <h2 class="text-center mx-auto fw-bold">Customer Expenses</h2>
+          
+<button type="button" class="btn bg-success p-2 text-white fw-bold" onclick="window.location.href='customer-list.html'">
+    Customer List
+</button>
+
+
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0 ">ID</label>
+                <input type="text" class="form-control" placeholder="Enter ID">
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Firm Name</label>
+                <div class="d-flex align-items-center gap-3 form-control">
+
+                    <select class="border-0 w-100" >
+                        <option>Select Firm</option>
+                        <option>Firm A</option>
+                        <option>Firm B</option>
+                    </select>
+                   
+                </div>
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Owner Name</label>
+                <input type="text" class="form-control" placeholder="Enter Name">
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Date</label>
+                <input type="date" class="form-control" >
+            </div>
+           
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Lot #</label>
+                <input type="text" class="form-control" placeholder="Enter Lot">
+            </div>
+            
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Labor Charges</label>
+                <input type="number" class="form-control" placeholder="0" min="0">
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Lifter Charges</label>
+                <input type="number" class="form-control" placeholder="0" min="0">
+            </div>
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Quli Charges</label>
+                <input type="number" class="form-control" placeholder="0" min="0">
+            </div>
+           
+            <div class="mb-3">
+                <label class="form-label fw-bold m-0">Bill</label>
+                <input type="number" class="form-control" placeholder="0" min="0">
+            </div>
+           
+           
+           
+            <button class="btn btn-primary d-block mx-auto w-25 fw-bold mt-4">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
